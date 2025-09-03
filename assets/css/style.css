@@ -2511,13 +2511,14 @@ html{
     margin-bottom: 50px;
 }
 .testimonial3-con .testimonial-box {
-    padding: 50px 30px 45px 35px;
-    border-radius: 20px;
-    background-color: var(--e-global-color-white);
-    border-bottom: 2px solid var(--e-global-color-accent);
-    box-shadow: 0 2px 73px 2px rgb(0 0 0 / 5%) inset;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+	padding: 50px 30px 45px 35px;
+	border-radius: 20px;
+	background-color: var(--e-global-color-white);
+	border-bottom: 2px solid var(--e-global-color-accent);
+	box-shadow: 0 2px 73px 2px rgb(0 0 0 / 5%) inset;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	min-height: 295px;
 }
 .testimonial3-con .testimonial-box .testimonial-quoteimage {
     margin-bottom: 20px;
