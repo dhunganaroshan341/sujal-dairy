@@ -1,0 +1,26 @@
+.newsletter-form input {
+    border-right: none; /* remove double border between input and button */
+}
+
+.newsletter-form button {
+    border-left: none;
+}
+
+.newsletter-form input,
+.newsletter-form button {
+    height: 38px; /* match height */
+}
+
+@media (max-width: 767px) {
+    .newsletter-form {
+        flex-direction: column;
+    }
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+        border-radius: 4px !important;
+    }
+    .newsletter-form button {
+        margin-top: 5px;
+    }
+}

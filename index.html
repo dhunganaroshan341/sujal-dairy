@@ -128,6 +128,22 @@
   cursor: pointer;
 }
 
+.testimonial-box {
+    min-height: 350px; /* adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.video-wrapper img {
+    height: 160px; /* same as blog cards or adjust */
+    object-fit: cover;
+}
+
+.footer-con a {
+	color: white !important;
+}
+
+
     </style>
 </head>
 <body>
@@ -783,92 +799,104 @@ document.querySelectorAll('.play-btn').forEach(btn => {
     </div>
   </div>
 </section>
-<!-- Footer Section -->
-<!-- Footer Section -->
-<footer class="footer-con position-relative" style="background:#fee9ea;">
-    <div class="container py-5">
-        <div class="row gy-4">
-            <!-- Logo + ISO + Newsletter -->
-            <div class="col-lg-3 col-md-6 text-center text-md-start">
-                <!-- Logo -->
-                <a href="index.html" class="d-block mb-2">
-                    <img src="assets/images/logo.png" alt="Sujal Foods Logo" class="img-fluid" style="max-height:60px;">
-                </a>
-                <!-- ISO Certification -->
-                <small class="d-block mb-3 text-muted">ISO 22000:2018 Certified</small>
+<!-- Footer -->
+<section class="footer-con position-relative">
+    <figure class="footer-image mb-0">
+        <img class="img-fluid" src="assets/images/footer-image.png" alt="image">
+    </figure>
+    <div class="container">
+        <div class="middle_portion">
+            <div class="row">
+                <!-- Logo + Newsletter -->
+               <!-- Logo + Newsletter -->
+<div class="col-lg-2 col-md-12 col-sm-12 col-12 order-md-1 order-sm-1 order-1">
+    <a href="index.html" class="d-block mb-3">
+        <figure class="footer-logo mb-0">
+            <img class="img-fluid" src="assets/images/logo.png" alt="Sujal Foods Logo">
+        </figure>
+    </a>
+    <!-- Newsletter (Sleek) -->
+    <form method="POST" action="#" class="d-flex newsletter-form">
+        <input type="email" name="email" placeholder="Your email" class="form-control form-control-sm rounded-start" required>
+        <button type="submit" class="btn btn-primary btn-sm rounded-end">Subscribe</button>
+    </form>
+</div>
 
-                <!-- Newsletter -->
-                <h5 class="mb-2">Join Our Mailing List</h5>
-                <small>Be the first to know about special promotions and holiday products!</small>
-                <form method="POST" action="https://www.sujal.com.np/!/forms/subcribe" class="mt-2 d-flex flex-column flex-sm-row gap-2">
-                    <input type="hidden" name="_token" value="5AdTgiB2OnNuXtufzPWYNwjhBHTulvFXGuOw9pOM">
-                    <input type="email" class="form-control" placeholder="Enter your e-mail " name="email" required>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
-            </div>
 
-            <!-- Navigation -->
-            <div class="col-lg-3 col-md-6 text-center text-md-start">
-                <h5 class="mb-3">Navigation</h5>
-                <ul class="list-unstyled mb-0">
-                    <li><a href="about.html" class="text-decoration-none">About</a></li>
-                    <li><a href="products.html" class="text-decoration-none">Products</a></li>
-                    <li><a href="blog.html" class="text-decoration-none">Blog</a></li>
-                    <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- Contact Info -->
-            <div class="col-lg-3 col-md-6 text-center text-md-start">
-                <h5 class="mb-3">Contact Us</h5>
-                <p class="mb-2"><i class="fa-solid fa-location-dot me-1"></i>Bhagwati Bahal Marg, Naxal, Kathmandu, Nepal</p>
-                <p class="mb-2"><i class="fas fa-envelope me-1"></i><a href="mailto:infoktm@sujal.com.np" class="text-decoration-none">infoktm@sujal.com.np</a></p>
-                <p class="mb-0"><i class="fa-solid fa-phone me-1"></i>
-                    <a href="tel:01-4533674" class="text-decoration-none">01-4533674</a>,
-                    <a href="tel:01-4513516" class="text-decoration-none">01-4513516</a>,
-                    <a href="tel:01-4533780" class="text-decoration-none">01-4533780</a>
-                </p>
-            </div>
-
-            <!-- Social Links -->
-            <div class="col-lg-3 col-md-6 text-center text-md-start">
-                <h5 class="mb-3">Follow Us</h5>
-
-                <!-- <div class="mb-2">
-                    <strong>Sujal Foods:</strong>
-                    <a href="https://www.facebook.com/safalmilk" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/delite_milk_powder/" class="me-2"><i class="fa-brands fa-instagram"></i></a>
-                </div>   <div class="mb-2">
-                    <strong>Sujal Dairy:</strong>
-                    <a href="https://www.facebook.com/safalmilk" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/delite_milk_powder/" class="me-2"><i class="fa-brands fa-instagram"></i></a>
-                </div>  -->
-                <div class="mb-2">
-                    <strong>Safal Milk:</strong>
-                    <a href="https://www.facebook.com/safalmilk" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/delite_milk_powder/" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+                <!-- Navigation -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 order-md-2 order-sm-4 order-2">
+                    <div class="links">
+                        <h5 class="heading">Navigation</h5>
+                        <div class="pages">
+                            <ul class="list-unstyled mb-0 list1">
+                                <li><i class="fas fa-circle"></i><a href="index.html">Home</a></li>
+                                <li><i class="fas fa-circle"></i><a href="about.html">About</a></li>
+                                <li><i class="fas fa-circle"></i><a href="shop1.html">Shop</a></li>
+                            </ul>
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fas fa-circle"></i><a href="products.html">Products</a></li>
+                                <li><i class="fas fa-circle"></i><a href="blog.html">Blog</a></li>
+                                <li><i class="fas fa-circle"></i><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mb-2">
-                    <strong>Lovebirds:</strong>
-                    <a href="https://www.facebook.com/lovebirds.np" class="me-2"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/lovebirds.np/" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+                <!-- Contact Info -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 order-md-3 order-sm-3 order-3">
+                    <div class="info">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div class="text">
+                                    <span>Address:</span>
+                                    <a href="https://goo.gl/maps/qQG7QxVg7z8E6Ewh6" class="text-decoration-none address mb-0">
+                                        Bhagwati Bahal Marg, Naxal, Kathmandu, Nepal
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-open-text"></i>
+                                <div class="text">
+                                    <span>Email:</span>
+                                    <a href="mailto:infoktm@sujal.com.np" class="text-decoration-none">infoktm@sujal.com.np</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div>
-                    <strong>Rush Badam:</strong>
-                    <a href="https://www.instagram.com/rush.badam.drink/" class="me-2"><i class="fa-brands fa-instagram"></i></a>
+                <!-- Phone + Social -->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 order-md-4 order-sm-2 order-4">
+                    <div class="icon">
+                        <div class="phone_wrapper">
+                            <i class="fa-solid fa-phone phone"></i>
+                            <div class="phone_content">
+                                <a href="tel:01-4533674" class="text-decoration-none d-block">01-4533674</a>
+                                <span>Got Questions? Call us 24/7</span>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled mb-0 social-icons">
+                            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Footer Bottom -->
-        <div class="footer-bottom mt-4 pt-3 border-top text-center text-md-start d-flex flex-column flex-md-row justify-content-between align-items-center">
-            <span class="small text-muted mb-2 mb-md-0">Copyright © 2022 Sujal Foods Pvt. Ltd. All rights reserved.</span>
-            <span class="small">Developed by <a href="#" target="_blank">Realm Infotech</a></span>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p class="mb-0">Copyright © 2025 Sujal Foods Pvt. Ltd. All rights reserved.</p>
         </div>
     </div>
-</footer>
+</section>
+
+
+
+
+
 
 
 
