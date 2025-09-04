@@ -107,7 +107,7 @@ a:hover,
     display: inline-block;
     width: 36px;
     height: 36px;
-    background: #07508f;
+    /* background: #07508f; */
     color: #fff;
     text-align: center;
     line-height: 36px;
