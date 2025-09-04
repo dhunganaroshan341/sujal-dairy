@@ -59,6 +59,7 @@ body {
 :root {
     --e-global-color-primary: #ffffff;
     --e-global-color-secondary: #0f0200;
+    --e-global-color-sujal-blue: #56257b;
     /* --e-global-color-accent: #f83d8e; */
     --e-global-color-accent: #b71510;
     --e-global-color-text: #646464;
@@ -154,7 +155,7 @@ p{
 }
 .all_button:hover{
     color: var(--e-global-color-white);
-    background: var(--e-global-color-secondary);
+    background: var(--e-global-color-sujal-blue);
 }
 .all_button i {
     font-size: 12px;

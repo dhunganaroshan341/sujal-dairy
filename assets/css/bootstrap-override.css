@@ -18,10 +18,10 @@ a,
 .text-primary {
   color: var(--bs-primary) !important;
 }
-a:hover,
+/* a:hover,
 .text-primary:hover {
-  color: #7a1417 !important; /* darker hover */
-}
+  color: #7a1417 !important; darker hover 
+} */
 
 .bg-primary {
   background-color: var(--bs-primary) !important;
