@@ -147,6 +147,21 @@ a:hover,
 .btn.btn-sm.btn-outline-primary {
 	color: #a41b1f !important;
 	border-color: #a41b1f !important;
+}.btn.btn-sm.btn-outline-primary:hover {
+	color: white !important;
+	border-color: #a41b1f !important;
+}
+.btn-outline-primary:hover {
+	
+	background-color: #a41b1f;
+	border-color:#a41b1f ;
 }
 
   
+footer h6 {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	/* color: var(--e-global-color-secondary); */
+	color: #957777;
+}
