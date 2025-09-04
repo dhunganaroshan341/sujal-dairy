@@ -1,0 +1,152 @@
+
+
+/* ===============================
+   Sujal Foods Bootstrap Overrides
+   =============================== */
+
+/* Bootstrap color variables */
+:root {
+  --bs-primary: #9b191d;
+  --bs-primary-rgb: 155, 25, 29;
+
+  --bs-secondary: #683292;
+  --bs-secondary-rgb: 104, 50, 146;
+}
+
+/* ---------- Primary ---------- */
+a,
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+a:hover,
+.text-primary:hover {
+  color: #7a1417 !important; /* darker hover */
+}
+
+.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+.border-primary {
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+.btn-primary:hover {
+  background-color: #7a1417 !important;
+  border-color: #7a1417 !important;
+}
+
+/* Alerts & badges */
+.alert-primary {
+  background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+  border-color: var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
+}
+.badge-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+/* ---------- Secondary ---------- */
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+.text-secondary:hover {
+  color: #4f2670 !important; /* darker hover */
+}
+
+.bg-secondary {
+  background-color: var(--bs-secondary) !important;
+}
+.border-secondary {
+  border-color: var(--bs-secondary) !important;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary) !important;
+  border-color: var(--bs-secondary) !important;
+}
+.btn-secondary:hover {
+  background-color: #4f2670 !important;
+  border-color: #4f2670 !important;
+}
+
+.alert-secondary {
+  background-color: rgba(var(--bs-secondary-rgb), 0.1) !important;
+  border-color: var(--bs-secondary) !important;
+  color: var(--bs-secondary) !important;
+}
+.badge-secondary {
+  background-color: var(--bs-secondary) !important;
+}
+
+  /* Footer Styles */
+  .footer-con {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+
+  .footer-con .heading {
+    font-weight: 600;
+    color: #07508f;
+  }
+
+  .footer-links li a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer-links li a:hover {
+    color: #f7b731;
+  }
+
+  .social-icons li a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #07508f;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 16px;
+  }
+
+  .social-icons li a:hover {
+    background: #f7b731;
+    color: #07508f;
+    transform: translateY(-3px);
+  }
+
+  hr {
+    border-top: 1px solid #ddd;
+  }
+
+  @media (max-width: 767px){
+    .social-icons li a {
+      margin-right: 5px;
+    }
+  }
+
+  .header .logo img {
+	width: 120px;
+}
+.footer-logo {
+	width: 200px;
+}
+.categories-con .categories-box .image {
+	overflow: hidden;
+	border-radius: 20px;
+	transition: all 0.3s ease-in-out;
+	background-color: #4a30302e;
+}
+.btn.btn-sm.btn-outline-primary {
+	color: #a41b1f !important;
+	border-color: #a41b1f !important;
+}
+
+  

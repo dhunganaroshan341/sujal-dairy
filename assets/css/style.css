@@ -2150,11 +2150,11 @@ html{
 /* Banner */
 
 .banner3-con {
-    padding: 84px 0 58px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(../images/ice-cream-background.jpg);
+	/* padding: 84px 0 0px; */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../images/banner3-backgroundimage.jpg);
 }
 .banner3-con .banner_content {
     width: 690px;
